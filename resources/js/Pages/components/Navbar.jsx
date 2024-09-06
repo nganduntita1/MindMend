@@ -32,9 +32,10 @@ const Container = styled.div`
  `
 
 const Link = styled.a`
-  padding: 11px;
-  background-color: #0C3E71;
+  padding: 12px;
+  background-color: #5221dd;
   color: white;
+  font-size: 14px;
   border: none;
   border-radius: 20px;
   cursor: pointer;
@@ -45,7 +46,7 @@ const Link = styled.a`
  const Button = styled.button`
   width: 100px;
   padding: 10px;
-  background-color: #0C3E71;
+  background-color: #5221dd;
   color: white;
   border: none;
   border-radius: 20px;

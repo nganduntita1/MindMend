@@ -24,10 +24,16 @@ export default {
             }
             },
         extend: {
+            colors: {
+                darkBlue: '#0C3E71',  
+                lightBlue: '#5221dd',  
+    
+              },
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
         },
+        
     },
 
     plugins: [forms],

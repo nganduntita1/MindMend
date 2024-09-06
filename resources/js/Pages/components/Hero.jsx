@@ -29,6 +29,8 @@ const Left = styled.div`
   flex-direction: column;
   justify-content: center;
   gap: 20px;
+// background: #000;
+
   
 `;
 const Title = styled.h1`
@@ -97,7 +99,7 @@ border: 1px solid rgba(255, 255, 255, 0.85);
 const Button = styled.button`
 width: 100px;
   padding: 10px;
-  background-color: #0C3E71;
+  background-color: #5221dd;
   color: white;
   border: none;
   border-radius: 20px;
@@ -107,6 +109,7 @@ width: 100px;
 
 const Right = styled.div`
 flex: 3;
+// background: #fff;
 position: relative;
 `;
 const Img = styled.img`
@@ -140,7 +143,7 @@ const Hero = () => {
                     <Subtitle className="text-xl font-poppins font-semibold text-gray-700">Where Learning Meets Fun</Subtitle>
                 </WhatWeDo>
                 <DescBG>
-                <Desc>Say goodbye to boring study routines. With MindMend, learning is always an adventure</Desc>
+                <Desc className='text-gray-700'>Say goodbye to boring study routines. With MindMend, learning is always an adventure</Desc>
                 </DescBG>
                 <Button>Start Now</Button>
             </Left>
@@ -150,7 +153,7 @@ const Hero = () => {
                     <OrbitControls enableZoom={false} autoRotate />
                     <ambientLight intensity={2} />
                     <directionalLight  position={[3, 4, 5]} intensity={1.5}/>
-                    <Sphere args={[1,100,200]} scale={1.5} >
+                    <Sphere args={[1,100,200]} scale={1.2} >
                         <MeshDistortMaterial color="#0C3E71" attach="material" distort={0.5} speed={2} />
                     </Sphere>
                 </Canvas>
